@@ -1,0 +1,287 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.layer{
+    height: 100%;
+    display: inline-flex;
+    width: 100%;
+}
+
+.box{
+    margin-top: 0px;
+    position: absolute;
+    height: 98.7%;
+}
+
+#box1{
+    width: 35%;   
+    border: 3px solid black;
+    z-index: 3;
+    background-color: #cca311;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23cca311' width='11' height='11'/%3E%3Crect fill='%23cea111' x='10' width='11' height='11'/%3E%3Crect fill='%23d09f10' y='10' width='11' height='11'/%3E%3Crect fill='%23d29e11' x='20' width='11' height='11'/%3E%3Crect fill='%23d49c11' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23d69a12' y='20' width='11' height='11'/%3E%3Crect fill='%23d89813' x='30' width='11' height='11'/%3E%3Crect fill='%23da9614' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23dc9415' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23de9217' y='30' width='11' height='11'/%3E%3Crect fill='%23e09019' x='40' width='11' height='11'/%3E%3Crect fill='%23e18e1a' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23e38c1c' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23e58a1e' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23e68820' y='40' width='11' height='11'/%3E%3Crect fill='%23e88622' x='50' width='11' height='11'/%3E%3Crect fill='%23e98424' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23eb8126' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23ec7f28' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23ee7d2a' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23ef7b2c' y='50' width='11' height='11'/%3E%3Crect fill='%23f0792e' x='60' width='11' height='11'/%3E%3Crect fill='%23f17631' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23f37433' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23f47235' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23f57037' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23f66d39' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23f76b3c' x='70' width='11' height='11'/%3E%3Crect fill='%23f8693e' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23f86740' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23f96443' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23fa6245' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23fa6047' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23fb5d4a' x='80' width='11' height='11'/%3E%3Crect fill='%23fb5b4c' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23fc594e' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23fc5651' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23fd5453' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23fd5256' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23fd5058' x='90' width='11' height='11'/%3E%3Crect fill='%23fd4d5b' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23fd4b5d' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23fd4960' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23fd4763' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23fc4565' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23fc4368' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23fc416a' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23fb3f6d' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23fb3d70' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23fa3b72' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23f93975' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23f83878' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23f7367b' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23f6357d' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23f53480' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23f43383' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23f33286' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23f13188' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23f0308b' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23ee308e' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#text1{
+    text-align: center;
+}
+
+#text2{
+  text-align: center;
+  display: none;
+  padding: 5% 5%;
+}
+
+#ct21{
+    font-size: 4vw;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-top: 15%;
+    line-height: 4.5vw;
+}
+
+#ct22{
+    padding-top: 15%;
+    font-size: 3vw;
+    line-height: 3.2vw;
+}
+
+#ct23{
+    padding-top: 15%;
+    font-size: 2.3vw;
+}
+
+.button1 {
+    width: 40%;
+    background-color:rgb(11, 102, 11);
+    border: grey solid;
+    color: rgb(238, 204, 12);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 16px;
+    transition: all 0.25s;
+  }
+
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+    z-index: 0;
+  }
+  
+  .button1 span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+  .button1:hover {
+    background-color: rgb(231, 13, 13); 
+    color: white;
+  }
+
+  .button2 {
+    width: 40%;
+    background-color:rgb(235, 8, 45);
+    border: grey solid;
+    color: rgb(243, 237, 237);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 16px;
+    transition: all 0.25s;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+    z-index: 0;
+  }
+  
+  .button2 span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+  .button2:hover {
+    background-color: rgb(37, 133, 7); 
+    color: rgb(224, 221, 11);
+  }
+
+  #ct31{
+    font-size: 3.5vw;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-top: 15%;
+    line-height: 3.8vw;
+  }
+
+  #ct32{
+    color: rgb(211, 241, 198);
+    padding-top: 15%;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+  }
+
+#box2{
+    left: 35%;
+    width: 64.5%;
+    border: 3px solid black;
+    z-index: 1;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-image:url(img/iitr_jtb.jpg);
+}
+
+#img1{
+    align-self: center;
+    height: 18%;
+    width: 12%;
+  }
+
+  #ct11{
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  #ct12{
+    padding-top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+
+  #ct13{
+    padding-top: 1%;
+    text-align: center;
+    color: rgb(233, 136, 8);
+    font-size: 1.6vw;
+  }
+
+#box3{
+    left: 0%;
+    z-index: 0;
+    width: 60%;
+    border: 3px solid black;
+    background-color: #183333;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23dd155e'/%3E%3Cstop offset='1' stop-color='%23183333'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23f7ff58' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23f7ff58' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ #form1 #ct41{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 4vw;
+  font-family: cursive;
+  color: bisque;
+}
+#form2 #ct41{
+  text-align: center;
+  padding-top: 12%;
+  font-size: 4vw;
+  font-family: cursive;
+  color: bisque;
+}
+
+.form{
+  text-align: left;
+  padding-top: 5%;
+  width: 60%;
+  margin-left: 35%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-size: 2vw;
+}
+
+input[type=text]{
+  text-align: center;
+  margin-top: 2%;
+  height: 7%;
+  width: 50%;
+  border-radius: 2vw;
+}
+
+input[type=password]{
+  text-align: center;
+  margin-top: 2%;
+  height: 7%;
+  width: 50%;
+  border-radius: 2vw;
+}
+
+input[type=submit]{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 7%;
+  width: 30%;
+  border-radius: 2vw;
+  margin-left: 10%;
+}
+
+.heads{
+  background-color: transparent;
+  color: white;
+}
+.transit{
+    animation: transit 2s ease ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transit {
+    0% {
+        left: 0%;
+        width: 35%;
+    }
+    100% {
+        left: 59.4%;
+        width: 40%;
+
+    }
+}
+
+.appear{
+    animation: appear 1s linear ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        z-index: 0;
+        width: 0%;
+    }
+    100% {
+        z-index: 2;
+        width: 60%;
+    }
+}
